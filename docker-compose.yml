@@ -1,0 +1,6 @@
+services:
+  zqq-014:
+    build: .
+    ports:
+      - "8014:80"
+    restart: unless-stopped
